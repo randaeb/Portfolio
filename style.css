@@ -1,0 +1,43 @@
+*{box-sizing:border-box
+
+}
+
+body {
+    border: 2px solid;
+    height: 100vh;
+    margin: 0;
+
+
+}
+
+header {
+    height: 25%;
+    border: 2px solid pink;
+    display: flex;
+
+}
+
+header h1 { 
+    width: 20%;
+    border: 2px solid blue;
+    margin: 0;
+
+}
+
+.navigation{
+    width: 80%;
+    border: 2px solid orange;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+main {
+    height: 62%;
+    border: 2px solid green;
+}
+
+footer {
+    height: 13%;
+    border: 2px solid red;
+}
